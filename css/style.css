@@ -13,6 +13,15 @@ header{
     justify-content: space-between;
 }
 
+footer{
+    background-color: blue;
+}
+
+.coockies{
+    background-color: rgb(41, 40, 40);
+    max-width: 100%;
+}
+
 /* LAYOUT RULES */
 
 .container{
@@ -83,6 +92,13 @@ header{
 
 
 
+/* ABOUT US SECTION */
+
+
+/* END ABOUT US SECTION */
+
+
+
 /* BREAK POINTS */
 
 /* TABLET */
@@ -112,6 +128,10 @@ header{
     .card{
         width: calc(100% / 2 - 20px);
     }
+
+    .half{
+        width: calc(100% / 2 - 20px);
+    }
 }
 
 /* DESKTOP */
@@ -132,6 +152,15 @@ header{
     .card{
         width: calc(100% / 3 - 20px);
     }
+
+    .col-double{
+        width: calc( 100% / 3 * 2 - 20px);
+    }
+
+    .col-30{
+        width: calc(100% / 3 - 20px);
+    }
+    
      
 }
 
