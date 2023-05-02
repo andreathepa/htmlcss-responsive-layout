@@ -16,12 +16,13 @@ header{
 /* LAYOUT RULES */
 
 .container{
-    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .left-logo, .right-menu{
     height: 100px;
-    width: 300px;
+    width: 100px;
     background-color: yellow;
 }
 
@@ -31,6 +32,7 @@ header{
 
 .extended-menu{
     background-color: red;
+    display: none;
 }
 
 .hamburger, .extended-menu{
@@ -42,17 +44,32 @@ header{
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-    
+    .container{
+        max-width: 750px;
+    }
 }
 
 /* DESKTOP */
 
 @media screen and (min-width: 991px) {
+
+    .container{
+        max-width: 950px;
+    }
+    .hamburger{
+        display: none;
+    }
     
+    .extended-menu{
+        display: block;
+    }
+     
 }
 
 /* LARGE DESKTOP */
 
 @media screen and (min-width: 1200px) {
-    
+    .container{
+        max-width: 1140px;
+    }
 }
