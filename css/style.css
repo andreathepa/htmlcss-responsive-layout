@@ -70,6 +70,16 @@ header{
 
 /* END STRATEGIC SECTION */
 
+/* PARTNER SECTION */
+
+.col-100{
+    width: calc(100% - 20px);
+    background-color: green;
+    height: 200px;
+    margin: 10px;
+}
+
+/* END PARTNER SECTION */
 
 
 /* BREAK POINTS */
