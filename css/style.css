@@ -82,6 +82,7 @@ header{
 /* END PARTNER SECTION */
 
 
+
 /* BREAK POINTS */
 
 /* TABLET */
@@ -107,6 +108,10 @@ header{
     .col-50{
         width: calc(100% / 2 - 20px);
     }
+
+    .card{
+        width: calc(100% / 2 - 20px);
+    }
 }
 
 /* DESKTOP */
@@ -122,6 +127,10 @@ header{
     
     .extended-menu{
         display: block;
+    }
+
+    .card{
+        width: calc(100% / 3 - 20px);
     }
      
 }
