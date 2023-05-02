@@ -119,12 +119,22 @@ a{
 
 /* STRATEGIC SECTION */
 
+.purple{
+    background-color: #9792E4;
+}
+
+.white-bord{
+    background-color: white;
+    border-radius: 25px;
+}
 .col-50{
     width: calc(100% - 20px);
-    background-color: violet;
-    height: 400px;
     margin: 10px;
 
+}
+
+.strategic-img{
+    width: 60%;
 }
 
 /* END STRATEGIC SECTION */
