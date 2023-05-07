@@ -247,7 +247,7 @@ h3{
     margin: 10px;
     border-radius: 20px;
     background-color: white;
-    
+
 
 }
 
@@ -306,9 +306,59 @@ h3{
 
 /* ABOUT US SECTION */
 
+.content-about{
+    line-height: 30px;
+}
 
+.button-link{
+    background-color: #9792E4;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px ;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
 /* END ABOUT US SECTION */
 
+/* GET STARTED SECTION */
+.content-foot{
+    padding: 60px 0px 60px 0px;
+}
+.center{
+    text-align: center;
+}
+
+.yellow{
+    color: #FDC15F;
+    font-size: 65px;
+}
+
+.button-started{
+    background-color: #ffffff;
+    width: 220px;
+    height: 60px;
+    border-radius: 25px ;
+    padding: 18px;
+    text-align: center;
+    color: #9792E4;
+    margin: 0 auto;
+}
+
+.text-white{
+    color: white;
+    line-height: 30px;
+}
+
+.cockie{
+    text-decoration: underline;
+    color: #9792E4;
+}
+
+.small{
+    font-size: 13px;
+}
 
 
 /* BREAK POINTS */
