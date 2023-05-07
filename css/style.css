@@ -367,7 +367,7 @@ h3{
 
 @media screen and (min-width: 768px) {
     .container{
-        max-width: 750px;
+        max-width: 950px;
     }
 
     .row{
@@ -376,12 +376,12 @@ h3{
     }
 
     .flex{
-        display: flex;
+        display: block;
         flex-direction: row;
     }
 
     .col-double{
-        width: calc( 100% / 3 * 2 - 20px);
+        width: calc( 66% - 20px);
     }
 
     .col-30{
@@ -389,7 +389,7 @@ h3{
     }
 
     .col-50{
-        width: calc(100% / 2 - 20px);
+        width: calc(100% - 20px);
     }
 
     .card{
@@ -409,7 +409,22 @@ h3{
     }
 
     .left-content, .right-content{
+        width: 100%;
+        
+    }
+
+    .content{
+        padding: 30px 27px;
+        line-height: 30px;
+        border-radius: 30px;
+        color: black;
+        background-color: #B5DDFF;
+    }
+
+    #phone{
         width: 50%;
+        position: relative;
+        margin-bottom: -39px;
     }
 }
 
