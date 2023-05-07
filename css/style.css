@@ -67,7 +67,7 @@ footer{
     margin: 10px;
 }
 
-.content-demo{
+.content{
     padding: 40px 65px;
     line-height: 30px;
     border-radius: 30px;
@@ -80,9 +80,6 @@ h4{
     color: #0084FD;
 }
 
-/* .col-demo{
-    width: 100%;
-} */
 
 .icon{
     font-size: 80px;
@@ -93,9 +90,19 @@ h4{
     margin-bottom: 20px;
 }
 
-.content-demo{
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content, .right-content{
+    width: 100%;
+}
+
+.center{
     text-align: center;
 }
+
 #appstore{
     background-color: #0084FD;
     padding: 10px;
@@ -112,7 +119,9 @@ a{
 }
 
 #phone{
-    width: 300px;
+    width: 100%;
+    position: relative;
+    margin-bottom: -50px;
 }
 
 /* END DEMO SECTION */
@@ -126,6 +135,44 @@ a{
 .white-bord{
     background-color: white;
     border-radius: 25px;
+    padding-bottom: 38px;
+    margin-bottom: 35px;
+}
+
+.text-strategic{
+    color: white;
+    line-height: 30px;
+}
+
+.text-strategic-white{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    padding: 0px 50px;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+#black-h4{
+    color: black;
+    font-style: normal;
+}
+
+.arr{
+    position: absolute;
+    left: 40%;
+    top: 32%;
+}
+#arrow-down{
+    margin: 0 auto;
+    background-color: plum;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
 .col-50{
     width: calc(100% - 20px);
@@ -133,8 +180,14 @@ a{
 
 }
 
+.text-strategic{
+    padding: 30px;
+}
+
 .strategic-img{
-    width: 60%;
+    width: 100%;
+    padding: 50px;
+
 }
 
 /* END STRATEGIC SECTION */
@@ -142,13 +195,112 @@ a{
 /* PARTNER SECTION */
 
 .col-100{
-    width: calc(100% - 20px);
-    background-color: green;
-    height: 200px;
     margin: 10px;
+    border-radius: 20px;
 }
 
+.content-partner{
+    text-align: center;
+    line-height: 30px;
+    background-color: #9792E4;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.content-partner p,h2,h3{
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+.test{
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* .cerchio{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/testimonial1.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+} */
+
+
+
+
 /* END PARTNER SECTION */
+
+
+.back-purple{
+    background-color: #9792E4;
+}
+.col-30 {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    
+
+}
+
+#benefit-title{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.content-partner{
+    text-align: center;
+    line-height: 30px;
+    background-color: #9792E4;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container p,h2,h3{
+    padding: 17px;
+    margin-top: 10px;
+}
+
+
+
+.content-benefit{
+    line-height: 30px;
+}
+
+.content-benefit{
+    padding: 30px;
+}
+
+.button-purple{
+    background-color: #9792E4;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px ;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.color-benefit{
+    color: #9792E4;
+}
+
+.large{
+    font-size: 45px;
+}
+
 
 
 
@@ -171,6 +323,11 @@ a{
     .row{
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
     }
 
     .col-double{
@@ -199,6 +356,10 @@ a{
         border-radius: 30px;
         color: black;
         background-color: #B5DDFF;
+    }
+
+    .left-content, .right-content{
+        width: 50%;
     }
 }
 
